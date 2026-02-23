@@ -27,7 +27,7 @@ class Request(AiohttpRequest):
 
     @property
     def app(self) -> Application:
-        return super().app()
+        return super().app
 
 
 class View(AiohttpView):
